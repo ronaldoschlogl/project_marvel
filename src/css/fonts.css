@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'ssf4';
+  src: url('../fonts/SSF4_ABUKET.woff'); 
+}
+
+@font-face {
+  font-family: 'command';
+  src: url('../fonts/PILOT_COMMAND.otf');
+}
+
+.characters-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+}
+.selected-character {
+  display: inline-block;
+}
+
+.selected-character img {
+  max-width: 300px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.tag {
+  display: none;
+}
+

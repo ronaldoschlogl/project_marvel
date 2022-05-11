@@ -1,0 +1,43 @@
+@media (max-width: 1280px) {
+    .title {
+      font-size: 40px;
+    }
+  
+    .characters-list {
+      max-width: 330px;
+    }
+  
+    .characters-list .character {
+      width: 30%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    body::before {
+      background-image: url("../images/bg-mobile.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      opacity: 1;
+    }
+  
+    main {
+      padding: 0 50px;
+      justify-content: start;
+    }
+  
+    .head .title {
+      font-size: 22px;
+    }
+  
+    .big-character {    
+      display: none;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .head .title {
+      font-size: 19px;
+    }
+  }
